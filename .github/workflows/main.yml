@@ -19,11 +19,11 @@ jobs:
 
       - name: Run addition of number python script
         run: 
-          python add.py
+          python add2.py
 
   pythonScriptListElements:
-    if: ${{ always() }}
-    needs: pythonScriptAdd
+ #   if: ${{ always() }}
+ #   needs: pythonScriptAdd
     runs-on: ubuntu-latest
 
     steps:
